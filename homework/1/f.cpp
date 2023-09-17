@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define endl '\n'
 typedef long long int ll;
 
-#define N 50
+const int N=50;
 
 int main(){
     ll dp[N]={};

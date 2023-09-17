@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define endl '\n'
 typedef long long int ll;
 
 ll qpow(ll a,ll n){//a^n 快速冪
