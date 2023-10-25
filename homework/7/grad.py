@@ -8,7 +8,6 @@ step=0.01
 
 for i in range(100):
     f=a**2+b**2+c**2
-    last=f
     #print(f.data)
     f.backward()
     a.data-=a.grad*step
