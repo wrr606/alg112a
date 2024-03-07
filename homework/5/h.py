@@ -1,4 +1,5 @@
 import random
+
 def hillClimbing(f, p, h=1):
     failCount = 0                    # 失敗次數歸零
     while (failCount < 10000):       # 如果失敗次數小於一萬次就繼續執行
